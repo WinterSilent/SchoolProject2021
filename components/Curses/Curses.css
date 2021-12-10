@@ -1,0 +1,50 @@
+ul,
+ol,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.container {
+    /*color: #FEFCFD;*/
+
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+/*li::before {
+    content: '';
+    background-color: rgb(126, 126, 126);
+    height: 1px;
+    display: block;
+}*/
+
+
+
+li:hover {
+
+    color: #ffffff;
+    padding-left: 47px;
+    background-color: #506AF3;
+    transition: 1s;
+
+
+}
+
+li{
+    transition: 0.3s;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+
+li ~ li:hover::before  {
+    opacity: 0;
+}
