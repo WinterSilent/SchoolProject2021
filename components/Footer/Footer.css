@@ -1,4 +1,4 @@
-.footer_container {
+.footer__container {
     margin: 0 auto;
     background-color: #262626;
     color: #FFFFFF;
@@ -9,7 +9,7 @@
     letter-spacing: 0.155em;
 }
 
-.footer_content {
+.footer__content {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@
     padding-bottom: 50px;
 }
 
-.footer_column {
+.footer__column {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -30,15 +30,15 @@
     margin-bottom: 50px;
 }
 
-.footer_a {
+.footer__a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.footer_a:hover {
+.footer__a:hover {
     text-decoration: underline;
 }
 
-.footer_a:active {
+.footer__a:active {
     color: #9C9C9C;
 }
