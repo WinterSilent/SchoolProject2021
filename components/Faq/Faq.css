@@ -1,0 +1,73 @@
+body {
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.faq {
+    display: flex;
+}
+
+.faq__tabs {
+    overflow: hidden;
+}
+
+.tab {
+    border-top: 1px solid black;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.tab:nth-child(4) {
+    border-bottom: 1px solid black;
+}
+
+.tab__label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    color: black;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.tab__label::after {
+    content: "\002B";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+.tab__content {
+    max-height: 0;
+    padding: 0 1em;
+    color: white;
+    background: #ebebeb;
+    transition: all 0.35s;
+    font-size: 18px;
+}
+
+/*поворачиваем плюсик после нажатия*/
+input:checked + .tab__label::after {
+    transform: rotate(45deg);
+}
+
+/*после нажатия выплывающая часть*/
+input:checked ~ .tab__content {
+    max-height: 100vh;
+    padding: 1em;
+    background: #506AF3;
+}
+
+
