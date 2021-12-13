@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 72px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 68px;
+    font-weight: normal;
+}
+
+.timetable__table {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.timetable__main-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.timetable__lesson-info {
+    max-width: 384px;
+    margin-left: 10%;
+}
+
+.timetable__date {
+    writing-mode: vertical-rl;
+    margin-left: 20%;
+}
+
+.timetable__image {
+    padding-top: 0.5rem;
+}
