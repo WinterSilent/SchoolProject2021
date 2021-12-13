@@ -13,7 +13,7 @@ class Curses {
 
         const html = `
         <div class="container">
-        <h2>Курсы</h2>
+        <a name="curses-anchor"></a>
         <ul>
             ${htmlCurses}
         </ul>
