@@ -4,14 +4,16 @@ class Curses {
         CURSELIST.forEach(({ id, name }) => {
             htmlCurses += `
             <li>
-                <span>${name}</span>
-
+                
+                    <span>${name}</span>    
+                
             </li> 
             `
         })
 
         const html = `
         <div class="container">
+        <h2>Курсы</h2>
         <ul>
             ${htmlCurses}
         </ul>

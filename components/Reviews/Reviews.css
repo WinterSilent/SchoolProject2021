@@ -1,0 +1,43 @@
+.reviews-item{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-item__container{
+    max-width: 850px;
+}
+
+
+.reviews-item__person{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: flex-start;
+}
+
+
+.reviews-item__info
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.reviews-item__about{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.reviews-item__status, .reviews-item__curse{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.reviews-item__review{
+    font-weight: normal;
+    font-size: 26px;
+}

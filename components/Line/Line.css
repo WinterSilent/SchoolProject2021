@@ -1,0 +1,40 @@
+
+.line__container {
+    /*color: #FEFCFD;*/
+    /*max-width: 1200px;*/
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: rgb(180, 180, 180)
+
+}
+
+.line__container div{
+    display: flex;
+    width: 200%;
+    animation: move 5s linear infinite;
+    
+    
+}
+
+.line__container h1{
+    white-space: nowrap;
+    font-size: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 0;
+}
+
+
+
+@keyframes move {
+    from {
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
