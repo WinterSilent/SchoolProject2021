@@ -7,11 +7,11 @@ class Header {
               <a href="index.html">ТЕНЗОР</a>
             </div>
             <div class="header_menu">
-              <a href="#">О нас</a>
+              <a href="#about-anchor">О нас</a>
               <a href="#">Отзывы</a>
-              <a href="#">Войти</a>
+              <a href="#faq-anchor">FAQ</a>
               <div class="header_choose">
-                <a href="#">Выбрать курс</a>
+                <a href="#curses-anchor">Выбрать курс</a>
               </div>
             </div>
           </div>
