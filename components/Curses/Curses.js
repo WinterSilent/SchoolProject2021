@@ -6,18 +6,22 @@ class Curses {
             <li>
                 <span>${name}</span>
 
-            </li> 
+            </li>
             `
         })
 
         const html = `
         <div class="container">
-        <ul>
-            ${htmlCurses}
-        </ul>
+          <a name="curses-anchor"></a>
+          <div class="curses__title">
+              <h3>Курсы</h3>
+          </div>
+          <ul class="curses__ul">
+              ${htmlCurses}
+          </ul>
 
         </div>
-        
+
         `;
 
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);
