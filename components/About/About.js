@@ -11,18 +11,17 @@ class About {
                 Что такое Тензор? Это вектор. И мы движемся вперед с 1996 года как в работе, так и просто по жизни.
               </div>
               <div class="about_choose">
-                <a href="#">Выбрать курс</a>
+                <a href="#curses-anchor">Выбрать курс</a>
               </div>
             </div>
           </div>
           <div class="about__description">
+            <a name="about-anchor"></a>
             <div class="about__btn">
-              <a>
-                <div class="about__btn-circle">
-                  <div class="about__btn-arrow">
-                  </div>
+              <div class="about__btn-circle">
+                <div class="about__btn-arrow">
                 </div>
-              </a>
+              </div>
             </div>
             <div class="about__education">
               <p>
