@@ -1,0 +1,125 @@
+.about__container {
+    margin-top: 230px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__banner {
+    font-size: 100px;
+    line-height: 120px;
+
+    width: 602px;
+    margin-right: 68px;
+
+    animation-duration: 2s;
+    animation-name: about-emergence;
+}
+
+.about__topic {
+    padding-bottom: 17px;
+    width: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__topic-text {
+  animation-duration: 1.5s;
+  animation-name: about-emergence;
+}
+
+.about_choose {
+    width: 260px;
+    height: 80px;
+    background: #FF6E4E;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_choose a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    padding: 0;
+
+    animation-duration: 1.5s;
+    animation-name: about-emergence;
+}
+
+.about_choose a:hover {
+    text-decoration: underline;
+    padding: 0;
+}
+
+.about__description {
+    margin-top: 130px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__btn {
+
+}
+
+.about__btn-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__btn-arrow {
+    width: 42px;
+    height: 30px;
+    background-image: url("../../img/about-arrow.svg");
+}
+
+.about__education {
+    width: 60%;
+    margin-top: 100px;
+    font-family: IBM Plex Mono;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about__education p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.about__education_letter-spacing {
+    letter-spacing: 0.6em;
+}
+
+.about__education img {
+    margin-top: 20px;
+}
+
+@keyframes about-emergence {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
