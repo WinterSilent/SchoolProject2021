@@ -4,7 +4,7 @@ class Faq {
             <div class="faq">
                 <div class="faq__container">
                     <div class="faq__title">
-                        <h3>Курсы</h3>
+                        <h3>Часто задаваемые вопросы</h3>
                     </div>
                     <div class="faq__tabs">
                         <div class="tab">
@@ -44,6 +44,7 @@ class Faq {
             `
         const html = `
         <div class="container">
+            <a name="faq-anchor"></a>
             <ul>
                 ${htmlFaq}
             </ul>
