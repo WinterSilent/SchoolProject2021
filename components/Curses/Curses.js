@@ -5,7 +5,7 @@ class Curses {
             htmlCurses += `
             <li>
                 
-                    <span>${name}</span>    
+                <span>${name}</span>    
                 
             </li> 
             `
