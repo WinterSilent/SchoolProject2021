@@ -1,0 +1,57 @@
+.numbers__container {
+    margin: 0 auto;
+    color: #000000;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers__sign {
+    margin-top: 130px;
+
+    width: 400px;
+}
+
+.numbers__sign_letter-spacing {
+    letter-spacing: 0.6em;
+}
+
+.numbers__info {
+    margin-top: 110px;
+
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers_info-line_partition {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 60px;
+}
+
+.numbers__info-line {
+    height: 305px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers__info-block {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers__number {
+    font-size: 72px;
+    line-height: 94px;
+}
+
+.numbers__text {
+    font-size: 17px;
+    line-height: 22px;
+}
