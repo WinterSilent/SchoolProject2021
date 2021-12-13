@@ -83,6 +83,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 2s;
+    transform: translateY(0);
+}
+
+.about__btn-circle:hover {
+    transition: 2s;
+    transform: translateY(100px);
 }
 
 .about__btn-arrow {

@@ -1,4 +1,4 @@
-.header_container {
+.header__container {
     margin: 0 auto;
     min-height: 80px;
     border: 1px solid #000000;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.header_content {
+.header__content {
     height: 100%;
     margin: auto;
     max-width: 1200px;
@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.header_logo {
+.header__logo {
     /*width: 40%;*/
 
     margin: 9px 0;
@@ -31,7 +31,7 @@
     animation-name: header-emergence;
 }
 
-.header_menu {
+.header__menu {
     /*width: 60%;*/
 
     margin: 9px 0;
@@ -42,14 +42,14 @@
     align-items: center;
 }
 
-.header_menu a {
+.header__menu a {
     padding-right: 50px;
 
     animation-duration: 1s;
     animation-name: header-emergence;
 }
 
-.header_container a {
+.header__container a {
     text-decoration: none;
     font-size: 24px;
     text-transform: capitalize;
@@ -57,11 +57,11 @@
     color: #000000;
 }
 
-.header_container a:hover {
+.header__container a:hover {
     text-decoration: underline;
 }
 
-.header_choose {
+.header__choose {
     width: 260px;
     height: 80px;
     background: #FF6E4E;
@@ -72,7 +72,7 @@
     align-items: center;
 }
 
-.header_choose a {
+.header__choose a {
     color: #FFFFFF;
     padding: 0;
 }
