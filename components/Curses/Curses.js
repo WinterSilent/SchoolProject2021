@@ -3,12 +3,12 @@ class Curses {
         let htmlCurses = '';
         CURSELIST.forEach(({ id, name }) => {
             htmlCurses += `
-            <li class="curses">
+            <li>
                 
-                <span class="curses-name">${name}</span>    
+                <span">${name}</span>    
                 
             </li> 
-            `
+            `  
         })
 
         const html = `
@@ -19,7 +19,7 @@ class Curses {
         </ul>
 
         </div>
-        
+
         `;
 
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+}
+
+.teachers__info {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+}
+
+.teachers__name {
+    width: 332px;
+}
+
+.teachers__text-description {
+    max-width: 470px;
+    margin-left: 68px;
+    align-self: start;
+    margin-top: 25px;
+}
+
+.teachers__image {
+    margin-left: 100px;
+}
+
+
