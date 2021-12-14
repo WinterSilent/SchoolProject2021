@@ -9,4 +9,3 @@ const ROOT_REVIEWS = document.getElementById('reviews');
 const ROOT_FAQ = document.getElementById('faq');
 const ROOT_ACTION = document.getElementById('action');
 const ROOT_FOOTER = document.getElementById('footer');
-
