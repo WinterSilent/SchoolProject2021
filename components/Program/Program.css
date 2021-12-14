@@ -1,0 +1,24 @@
+.program-items{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-item{
+    max-width: 350px;
+}
+
+.program-modul{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.program-name
+{
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.program-lessons{
+    font-size: 16px;
+}
