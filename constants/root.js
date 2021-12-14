@@ -9,3 +9,6 @@ const ROOT_REVIEWS = document.getElementById('reviews');
 const ROOT_FAQ = document.getElementById('faq');
 const ROOT_ACTION = document.getElementById('action');
 const ROOT_FOOTER = document.getElementById('footer');
+const ROOT_PROGRAM = document.getElementById('program');
+const ROOT_LERN = document.getElementById('lern');
+const ROOT_SPECIALIST = document.getElementById('specialist');

@@ -1,0 +1,12 @@
+.lern-items{
+    display: grid;
+    grid-template-columns: 50% 50% 
+}
+
+.lern-item{
+    
+}
+
+.lern-name{
+    font-size: 20px;
+}

@@ -3,9 +3,9 @@ class Curses {
         let htmlCurses = '';
         CURSELIST.forEach(({ id, name }) => {
             htmlCurses += `
-            <li>
+            <li class="curses">
                 
-                <span>${name}</span>    
+                <span class="curses-name">${name}</span>    
                 
             </li> 
             `

@@ -1,0 +1,19 @@
+.specialist-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    margin-bottom: 54px;
+}
+
+.specialist-items{
+    display: grid;
+    grid-template-columns: 50% 50% 
+}
+
+.specialist-item{
+    max-width: 400px;
+}
+
+.specialist-item__str{
+    font-size: 20px;
+}
