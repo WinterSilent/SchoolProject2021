@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
-from .models import Teacher, Course
+from .models import Teacher, Course, Feedback
 
 
 @require_GET
@@ -15,3 +15,10 @@ def course_list(request):
     """Список курсов"""
     courses = Course.objects.order_by('pk')
     return JsonResponse({'result': [c.to_dict() for c in courses]})
+
+
+@require_GET
+def feedback_list(request):
+    """Список курсов"""
+    query = Feedback.objects.order_by('pk')[:5]
+    return JsonResponse({'result': [rec.to_dict() for rec in query]})
