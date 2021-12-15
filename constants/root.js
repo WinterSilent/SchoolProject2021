@@ -1,5 +1,6 @@
 const ROOT_HEADER = document.getElementById('header');
 const ROOT_ABOUT = document.getElementById('about');
+const ROOT_CURSE_ABOUT = document.getElementById('curse_about');
 const ROOT_NUMBERS = document.getElementById('numbers');
 const ROOT_LINE = document.getElementById('line');
 const ROOT_TEACHERS = document.getElementById('teachers');

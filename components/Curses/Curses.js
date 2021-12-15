@@ -5,20 +5,20 @@ class Curses {
         //fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
         //.then(result => console.log(result));
         fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
-        .then(result => { 
+        .then(result => {
         for (let key = 0; key < result.result.length; key++) {
             htmlCurses += `
-            <li class="curses" onclick="location.href='/curse.html?${result.result[key].id}'">
+            <li class="curses" onclick="location.href='curse.html?id=${result.result[key].id}'">
                 <span>${result.result[key].name}</span>
-                
-            </li> 
-            `  
+
+            </li>
+            `
 
         }
         let html = `
-        <div class="container">
-        <h2>Курсы<h2>
         <a name="curses-anchor"></a>
+        <div class="curses__container">
+        <h2>Курсы<h2>
         <ul>
             ${htmlCurses}
         </ul>
@@ -26,17 +26,11 @@ class Curses {
         </div>
 
         `;
-        console.log(html)
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);
-        }); 
-        
-        
-
-        
+        });
 
     }
 }
 
 const cursesPage = new Curses();
 cursesPage.render();
-
