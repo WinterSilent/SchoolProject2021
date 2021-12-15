@@ -39,6 +39,7 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(97, 97, 97);
+    cursor: pointer;
 }
 
 .curses:nth-child(1){
@@ -46,9 +47,6 @@ h2{
 }
 
 
-.curses ~ .cursesi:hover::before  {
-    opacity: 0;
-}
 
 
 
