@@ -1,19 +1,24 @@
 class Curses {
     render() {
         let htmlCurses = '';
-        CURSELIST.forEach(({ id, name }) => {
-            htmlCurses += `
-            <li>
-                
-                <span">${name}</span>    
-                
-            </li> 
-            `  
-        })
 
-        const html = `
-        <div class="container">
+        //fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
+        //.then(result => console.log(result));
+        fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
+        .then(result => {
+        for (let key = 0; key < result.result.length; key++) {
+            htmlCurses += `
+            <li class="curses" onclick="location.href='curse.html?id=${result.result[key].id}'">
+                <span>${result.result[key].name}</span>
+
+            </li>
+            `
+
+        }
+        let html = `
         <a name="curses-anchor"></a>
+        <div class="curses__container">
+        <h2>Курсы<h2>
         <ul>
             ${htmlCurses}
         </ul>
@@ -21,8 +26,8 @@ class Curses {
         </div>
 
         `;
-
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);
+        });
 
     }
 }

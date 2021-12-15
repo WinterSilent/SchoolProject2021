@@ -75,6 +75,7 @@
 .header__choose a {
     color: #FFFFFF;
     padding: 0;
+    cursor: pointer;
 }
 
 @keyframes header-emergence {
