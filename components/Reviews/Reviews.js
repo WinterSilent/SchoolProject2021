@@ -4,8 +4,8 @@ class Reviews {
         REVIEWS_LIST.forEach(({ id, name, surname, status, cusrse, review, img }) => {
             htmlReviews += `
             <div class="reviews-item">
-            
-                <div class="reviews-item__container">   
+
+                <div class="reviews-item__container">
                     <div class="reviews-item__person">
                         <div class="reviews-item__info">
                             <span class ="reviews-item__surname"> ${surname}</span>
@@ -18,18 +18,18 @@ class Reviews {
                     </div>
                     <p class="reviews-item__review">${review} </p>
                 </div>
-                <img src="${img}"> 
-                
-                
-            </div> 
+                <img src="${img}">
+
+
+            </div>
             `
         })
 
         const html = `
-        <div class="container">
+        <div class="reviews__container">
             ${htmlReviews}
         </div>
-        
+
         `;
 
         ROOT_REVIEWS.insertAdjacentHTML('afterbegin', html);

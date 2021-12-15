@@ -10,7 +10,7 @@ class About {
               <div class="about__topic-text">
                 Что такое Тензор? Это вектор. И мы движемся вперед с 1996 года как в работе, так и просто по жизни.
               </div>
-              <div class="about_choose">
+              <div class="about__choose">
                 <a href="#curses-anchor">Выбрать курс</a>
               </div>
             </div>

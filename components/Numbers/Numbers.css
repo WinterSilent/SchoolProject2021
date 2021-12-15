@@ -55,3 +55,57 @@
     font-size: 17px;
     line-height: 22px;
 }
+
+@media (max-width: 1300px) {
+  .numbers__container {
+      width: 90%;
+      margin-top: 40px;
+  }
+
+  .numbers__info {
+      margin-top: 40px;
+  }
+
+  .numbers__info-line {
+    height: 200px;
+  }
+
+  .numbers__info-block {
+      width: 300px;
+  }
+
+  .numbers__number {
+      font-size: 64px;
+  }
+
+  .numbers__text {
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .numbers__container {
+      width: 90%;
+      margin-top: 20px;
+  }
+
+  .numbers__info {
+      margin-top: 40px;
+  }
+
+  .numbers__info-line {
+    height: 200px;
+  }
+
+  .numbers__info-block {
+      width: 150px;
+  }
+
+  .numbers__number {
+      font-size: 32px;
+  }
+
+  .numbers__text {
+      font-size: 16px;
+  }
+}
