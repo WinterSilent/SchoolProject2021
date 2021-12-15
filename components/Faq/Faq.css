@@ -13,14 +13,6 @@ input {
     z-index: -1;
 }
 
-.faq__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 140px;
-    font-weight: 500;
-    font-size: 40px;
-}
-
 .faq {
     display: flex;
 }
@@ -77,3 +69,5 @@ input:checked ~ .tab__content {
     padding: 1em;
     background: #506AF3;
 }
+
+

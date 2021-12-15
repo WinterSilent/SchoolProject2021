@@ -7,23 +7,14 @@ li {
 
 
 
-.curses__container {
+.container {
     /*color: #FEFCFD;*/
 
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 210px;
     font-weight: 500;
     font-size: 40px;
 
-}
-
-.curses__container ul {
-    margin-top: 0;
-}
-
-.curses__title {
-    border-bottom: 1px solid black;
 }
 
 /*li::before {
@@ -49,7 +40,7 @@ li{
     transition: 0.3s;
     padding-top: 12px;
     padding-bottom: 12px;
-
+    
 }
 
 
