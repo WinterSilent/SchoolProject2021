@@ -41,8 +41,13 @@
 .curse-about__image {
   width: 1000px;
   height: 1000px;
-  background-image: url('../../img/data_science2.png');
+
   background-repeat: no-repeat;
+
+  position: relative;
+  top: 120px;
+
+  background-image: url('../../img/book.png');
 }
 
 .curse-about__a {
