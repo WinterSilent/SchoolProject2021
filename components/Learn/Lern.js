@@ -1,34 +1,24 @@
 class Lern {
-    render() {
+    render(result) {
         let htmlLern = '';
-        
-
-        LERN_LIST.forEach(({ id, lern }) => {
-           
-            htmlLern += `
-            <li class='lern-item'>
-                <img src="/img/Icon.png">
-                <span class="lern-name">${lern}</span>
-                
-            </li> 
+            for (let key = 0; key < result.result.content.length; key++){
+                htmlLern += `
+                    <li class='lern-item'>
+                        <img src="img/Icon.png">
+                    <span class="lern-name">${result.result.content[key]}</span>
+                    </li> 
             `
-        })
+            }
+            const html = `
+            <div class="container">
+            <h2>Вы узнаете, как</h2>
+                <ul class="lern-items">
+                    ${htmlLern}
+                </ul>
+            </div>`;
 
-        const html = `
-        <div class="container">
-        <h2>Вы узнаете, как</h2>
-        <ul class="lern-items">
-            ${htmlLern}
-        </ul>
-
-        </div>
+            ROOT_LERN.insertAdjacentHTML('afterbegin', html);
         
-        `;
-
-        ROOT_LERN.insertAdjacentHTML('afterbegin', html);
-
     }
 }
 
-const lernPage = new Lern();
-lernPage.render();

@@ -8,7 +8,7 @@ class Curses {
         .then(result => {
         for (let key = 0; key < result.result.length; key++) {
             htmlCurses += `
-            <li class="curses" onclick="location.href='/curse.html?${result.result[key].id}'">
+            <li class="curses" onclick="location.href='curse.html?id=${result.result[key].id}'">
                 <span>${result.result[key].name}</span>
 
             </li>
@@ -26,13 +26,8 @@ class Curses {
         </div>
 
         `;
-        console.log(html)
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);
         });
-
-
-
-
 
     }
 }
