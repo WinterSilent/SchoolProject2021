@@ -1,6 +1,7 @@
 .lern-items{
     display: grid;
-    grid-template-columns: 50% 50% 
+    grid-template-columns: 50% 50%;
+    margin-bottom: 150px;
 }
 
 .lern-item{
