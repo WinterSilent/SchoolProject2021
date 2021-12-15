@@ -4,6 +4,7 @@ class Curses {
 
         //fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
         //.then(result => console.log(result));
+        
         fetch("https://school-project2021.herokuapp.com/api/course", {}).then(response => response.json())
         .then(result => {
         for (let key = 0; key < result.result.length; key++) {
