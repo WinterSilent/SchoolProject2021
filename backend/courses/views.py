@@ -1,5 +1,6 @@
 from django.http import JsonResponse
 from django.views.decorators.http import require_GET
+from django.shortcuts import get_object_or_404
 from .models import Teacher, Course, Feedback
 
 
@@ -14,7 +15,14 @@ def teacher_list(request):
 def course_list(request):
     """Список курсов"""
     courses = Course.objects.order_by('pk')
-    return JsonResponse({'result': [c.to_dict() for c in courses]})
+    return JsonResponse({'result': [c.list_dict() for c in courses]})
+
+
+@require_GET
+def course_read(request, course_id):
+    """Информация по курсу"""
+    course = get_object_or_404(Course, pk=course_id)
+    return JsonResponse({'result': course.read_dict()})
 
 
 @require_GET
