@@ -12,3 +12,4 @@ const ROOT_FOOTER = document.getElementById('footer');
 const ROOT_PROGRAM = document.getElementById('program');
 const ROOT_LERN = document.getElementById('lern');
 const ROOT_SPECIALIST = document.getElementById('specialist');
+const ROOT_FAQCOURSE=document.getElementById('faqCourse')
