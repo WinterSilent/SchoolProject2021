@@ -1,10 +1,6 @@
 class Lern {
-    render() {
-        let urlId = window.location.search[1];
-        let url = "https://school-project2021.herokuapp.com/api/course/" + urlId;
+    render(result) {
         let htmlLern = '';
-        fetch(url, {}).then(response => response.json())
-        .then(result => {
             for (let key = 0; key < result.result.content.length; key++){
                 htmlLern += `
                     <li class='lern-item'>
@@ -22,9 +18,7 @@ class Lern {
             </div>`;
 
             ROOT_LERN.insertAdjacentHTML('afterbegin', html);
-        }) 
+        
     }
 }
 
-const lernPage = new Lern();
-lernPage.render();

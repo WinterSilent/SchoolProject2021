@@ -1,10 +1,5 @@
 class Timetable {
-    render() {
-        let urlId = window.location.search[1];
-        let url = "https://school-project2021.herokuapp.com/api/course/" + urlId;
-        fetch(url, {}).then(response => response.json())
-        .then(result => {
-            console.log(result.result.timetable)
+    render(result) {
             let htmlTimetable = '';
             let date= '';
             let time ='';
@@ -44,11 +39,5 @@ class Timetable {
                 </ul>
             </div>`;
             ROOT_TIMETABLE.insertAdjacentHTML('afterbegin', html);
-        }) 
-        
-   
     }
 }
-
-const timetablePage = new Timetable();
-timetablePage.render();
