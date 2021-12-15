@@ -49,7 +49,7 @@
     animation-name: header-emergence;
 }
 
-.header__container a {
+.header__a {
     text-decoration: none;
     font-size: 24px;
     text-transform: capitalize;
@@ -85,5 +85,48 @@
     to {
         transform: translateX(0px);
         opacity: 1;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .header__content {
+        width: 90%;
+    }
+
+    .header__a {
+        font-size: 16px;
+    }
+
+    .header__choose {
+        width: 195px;
+        height: 60px;
+    }
+
+    .header__menu a {
+        padding-right: 30px
+    }
+}
+
+@media (max-width: 700px) {
+    .header__container {
+        min-height: 60px;
+    }
+
+    .header__a {
+        font-size: 12px;
+    }
+
+    .header__content {
+        width: 90%;
+    }
+
+    .header__choose {
+        width: 130px;
+        height: 40px;
+    }
+
+    .header__menu a {
+        padding-right: 20px
     }
 }
