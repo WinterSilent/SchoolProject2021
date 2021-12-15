@@ -4,10 +4,11 @@ class Curses {
         CURSELIST.forEach(({ id, name }) => {
             htmlCurses += `
             <li>
-                <span>${name}</span>
-
-            </li>
-            `
+                
+                <span">${name}</span>    
+                
+            </li> 
+            `  
         })
 
         const html = `
