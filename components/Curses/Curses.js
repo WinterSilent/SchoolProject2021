@@ -11,12 +11,14 @@ class Curses {
         })
 
         const html = `
-        <div class="container">
-        <a name="curses-anchor"></a>
-        <ul>
-            ${htmlCurses}
-        </ul>
-
+        <div class="curses__container">
+            <a name="curses-anchor"></a>
+            <div class="curses__title">
+                <h3>Курсы</h3>
+            </div>
+            <ul>
+                ${htmlCurses}
+            </ul>
         </div>
 
         `;

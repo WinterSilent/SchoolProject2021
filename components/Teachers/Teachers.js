@@ -5,10 +5,7 @@ class Teachers {
         TEACHERSLIST.forEach(({name, position, description, image}) => {
             htmlTeachers += `
         <div class="teachers">
-            <div class="teachers__container">
-                <div class="teachers__delimeter">
-                    <img src="img/Line.jpg" alt="line">
-                </div>
+            <div>
                 <div class="teachers__info">
                     <div class="teachers__name">
                         <h1>${name}</h1>
@@ -28,7 +25,10 @@ class Teachers {
         })
         //компонуем
         const html = `
-        <div class="container">
+        <div class="teachers__container">
+            <div class="teachers__title">
+                <h3>Команда</h3>
+            </div>
             <ul>
                 ${htmlTeachers}
             </ul>
