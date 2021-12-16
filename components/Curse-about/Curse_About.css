@@ -39,15 +39,16 @@
 }
 
 .curse-about__image {
-    width: 1000px;
-    height: 1000px;
+    width: 700px;
+    height: 700px;
 
     background-repeat: no-repeat;
+    background-size: contain;
 
     position: relative;
     top: 120px;
 
-    background-image: url('../../img/book.png');
+    background-image: url('../../img/web.png');
 }
 
 .curse-about__a {
