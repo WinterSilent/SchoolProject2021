@@ -30,7 +30,7 @@ class Timetable {
                 `
             }
             const html = `
-            <div class="container">
+            <div class="container timetable__wrap">
             <div class="timetable__title">
             <h4>Расписание</h4>
             </div>
