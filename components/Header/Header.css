@@ -19,8 +19,6 @@
 }
 
 .header__logo {
-    /*width: 40%;*/
-
     margin: 9px 0;
 
     letter-spacing: 0.6em;
@@ -31,8 +29,6 @@
 }
 
 .header__menu {
-    /*width: 60%;*/
-
     margin: 9px 0;
 
     display: flex;
@@ -61,7 +57,7 @@
 }
 
 .header__a_white {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .header__choose {
@@ -101,10 +97,6 @@
   }
 }
 
-@media (max-width: 992px) {
-
-}
-
 @media (max-width: 768px) {
   .header__container {
       min-height: 60px;
@@ -122,12 +114,4 @@
   .header__menu a {
       padding-right: 20px
   }
-}
-
-@media (max-width: 578px) {
-
-}
-
-@media (max-width: 480px) {
-
 }
