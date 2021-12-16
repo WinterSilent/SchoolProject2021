@@ -9,7 +9,7 @@ class Timetable {
                 time = result.result.timetable[key].time.split(':');
                 time= time[0] + ":" + time[1];
                 htmlTimetable += `
-                <div class="timetable">
+                <div class="timetable__container">
                     <div class="timetable__table">
                         <div class="timetable__image">
                             <img src=img/Rectangle123.jpg alt="курс">
