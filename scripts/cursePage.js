@@ -2,7 +2,9 @@ let urlParams = new URLSearchParams(window.location.search);
 const urlId = urlParams.get('id');
 let url = "https://school-project2021.herokuapp.com/api/course/" + urlId;
 fetch(url, {}).then(response => response.json())
-        .then(result =>{
+        .then(result => {
+           const aboutPage = new CurseAbout();
+           aboutPage.render(result);
 
             const specialistPage = new Specialist();
             specialistPage.render(result);
@@ -15,4 +17,4 @@ fetch(url, {}).then(response => response.json())
 
             const timetablePage = new Timetable();
             timetablePage.render(result);
-        }).catch(error => alert("Что-то пощло не так"))
+        }).catch(error => alert("Что-то пощло не так"));
