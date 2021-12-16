@@ -4,7 +4,7 @@ class Lern {
             for (let key = 0; key < result.result.content.length; key++){
                 htmlLern += `
                     <li class='lern-item'>
-                        <img class ="lern-iamge" src="img/Icon.png">
+                        <img class ="lern-image" src="img/Icon.png">
                     <span class="lern-name">${result.result.content[key]}</span>
                     </li> 
             `
