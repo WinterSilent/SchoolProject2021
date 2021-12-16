@@ -22,6 +22,10 @@ h5 {
     font-weight: normal;
 }
 
+.timetable__container{
+    max-width: 1200px;
+}
+
 .timetable__table {
     border-top: 1px solid black;
     display: flex;
