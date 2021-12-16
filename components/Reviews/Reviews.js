@@ -58,13 +58,11 @@ class Reviews__slider {
     minus() {
       this.counter = this.counter - 1;
       this.show();
-      console.log(this.counter);
     }
 
     plus() {
       this.counter = this.counter + 1;
       this.show();
-      console.log(this.counter);
     }
 
     show() {

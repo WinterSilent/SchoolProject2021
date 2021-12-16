@@ -1,20 +1,15 @@
 
 .line__container {
-    /*color: #FEFCFD;*/
-    /*max-width: 1200px;*/
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
     background-color: rgb(180, 180, 180)
-
 }
 
 .line__container div{
     display: flex;
     width: 200%;
     animation: move 5s linear infinite;
-    
-    
 }
 
 .line__container h1{
