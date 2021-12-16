@@ -1,7 +1,7 @@
 class Numbers {
   render(){
     const html = `
-        <div class="numbers__container">
+        <div class="container numbers__container">
           <div class="numbers__sign">
             <span class="numbers__sign_letter-spacing">ТЕНЗОР</span> в числах
           </div>

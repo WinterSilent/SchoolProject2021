@@ -1,5 +1,6 @@
 const ROOT_HEADER = document.getElementById('header');
 const ROOT_ABOUT = document.getElementById('about');
+const ROOT_CURSE_ABOUT = document.getElementById('curse_about');
 const ROOT_NUMBERS = document.getElementById('numbers');
 const ROOT_LINE = document.getElementById('line');
 const ROOT_TEACHERS = document.getElementById('teachers');
@@ -12,3 +13,4 @@ const ROOT_FOOTER = document.getElementById('footer');
 const ROOT_PROGRAM = document.getElementById('program');
 const ROOT_LERN = document.getElementById('lern');
 const ROOT_SPECIALIST = document.getElementById('specialist');
+const ROOT_FAQCOURSE=document.getElementById('faqCourse')

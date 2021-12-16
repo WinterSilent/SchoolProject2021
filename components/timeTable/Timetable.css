@@ -22,6 +22,7 @@ h5 {
     font-weight: normal;
 }
 
+
 .timetable__table {
     border-top: 1px solid black;
     display: flex;
@@ -49,4 +50,54 @@ h5 {
 
 .timetable__image {
     padding-top: 0.5rem;
+}
+
+@media (max-width: 992px) 
+{
+    .timetable__table {
+        border-top: 1px solid black;
+        display: flex;
+        align-items: flex-start;
+    
+    }
+    .timetable__image{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .timetable__table {
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timetable__main-info{
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .timetable__lesson-info {
+        margin-left: 10px;
+        max-width: none;
+    }
+    .timetable__date {
+        writing-mode: horizontal-tb;
+        margin-left: 50%;
+    }
+
+}
+
+@media (max-width: 578px) {
+    .timetable__main-info p{
+        font-size: 14px;
+    }
+
+    .timetable__date h5{
+        font-size: 48px;
+    }
 }

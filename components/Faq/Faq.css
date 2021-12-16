@@ -7,6 +7,10 @@ h3 {
     font-weight: normal;
 }
 
+.faq__title{
+    margin-bottom: 40px;
+}
+
 input {
     position: absolute;
     opacity: 0;
@@ -18,8 +22,6 @@ input {
 }
 
 .faq__container {
-    max-width: 1200px;
-    margin: 0 auto;
     margin-top: 200px;
     font-weight: 500;
     font-size: 40px;
@@ -78,32 +80,43 @@ input:checked ~ .tab__content {
     background: #506AF3;
 }
 
-@media (max-width: 1300px) {
-    .faq__container {
-        max-width: 90%;
-        margin-top: 100px;
-    }
 
-    .tab__label {
-        font-size: 16px;
-    }
+@media (max-width: 1366px) {
+  .faq__container {
+      margin-top: 100px;
+  }
 
-    .tab__content {
-        font-size: 14px;
-    }
+  .tab__label {
+      font-size: 16px;
+  }
+
+  .tab__content {
+      font-size: 14px;
+  }
 }
 
+@media (max-width: 992px) {
 
-@media (max-width: 700px) {
-    .faq__container {
-        margin-top: 80px;
-    }
+}
 
-    .tab__label {
-        font-size: 14px;
-    }
+@media (max-width: 768px) {
+  .faq__container {
+      margin-top: 80px;
+  }
 
-    .tab__content {
-        font-size: 12px;
-    }
+  .tab__label {
+      font-size: 14px;
+  }
+
+  .tab__content {
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 578px) {
+
+}
+
+@media (max-width: 480px) {
+
 }

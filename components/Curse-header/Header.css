@@ -1,0 +1,132 @@
+.header__container {
+    margin: 0 auto;
+    min-height: 80px;
+    border: 1px solid #000000;
+
+    line-height: 31px;
+
+    overflow: hidden;
+}
+
+.header__content {
+    height: 100%;
+    margin: auto;
+    max-width: 1200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    /*width: 40%;*/
+
+    margin: 9px 0;
+
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+
+    animation-duration: 1s;
+    animation-name: header-emergence;
+}
+
+.header__menu {
+    /*width: 60%;*/
+
+    margin: 9px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__menu a {
+    padding-right: 50px;
+
+    animation-duration: 1s;
+    animation-name: header-emergence;
+}
+
+.header__a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.header__container a:hover {
+    text-decoration: underline;
+}
+
+.header__a_white {
+    color: #FFFFFF;
+}
+
+.header__choose {
+    width: 260px;
+    height: 80px;
+    background: #FF6E4E;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes header-emergence {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .header__content {
+        width: 90%;
+    }
+
+    .header__a {
+        font-size: 16px;
+    }
+
+    .header__choose {
+        width: 195px;
+        height: 60px;
+    }
+
+    .header__menu a {
+        padding-right: 30px
+    }
+}
+
+@media (max-width: 700px) {
+    .header__container {
+        min-height: 60px;
+    }
+
+    .header__a {
+        font-size: 12px;
+    }
+
+    .header__content {
+        width: 90%;
+    }
+
+    .header__choose {
+        width: 130px;
+        height: 40px;
+    }
+
+    .header__menu a {
+        padding-right: 20px
+    }
+}
