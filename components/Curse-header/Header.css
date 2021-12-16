@@ -61,21 +61,20 @@
     text-decoration: underline;
 }
 
+.header__a_white {
+    color: #FFFFFF;
+}
+
 .header__choose {
     width: 260px;
     height: 80px;
     background: #FF6E4E;
     color: #FFFFFF;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header__choose a {
-    color: #FFFFFF;
-    padding: 0;
-    cursor: pointer;
 }
 
 @keyframes header-emergence {

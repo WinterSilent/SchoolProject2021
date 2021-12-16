@@ -23,8 +23,7 @@ class Reviews {
         })
 
         const html = `
-        <a name="reviews-anchor"></a>
-        <div class="reviews__container">
+        <div class="container reviews__container">
             <div class="reviews__btn-circle" onclick="reviewsSlider.minus()">
                 <div class="reviews__btn-arrow">
                 </div>

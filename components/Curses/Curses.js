@@ -11,22 +11,20 @@ class Curses {
             htmlCurses += `
             <li class="curses" onclick="location.href='curse.html?id=${result.result[key].id}'">
                 <span>${result.result[key].name}</span>
-
             </li>
             `
-
         }
-        let html = `
-        <a name="curses-anchor"></a>
-        <div class="curses__container">
-        <h2>Курсы<h2>
-        <ul>
-            ${htmlCurses}
-        </ul>
 
+        let html = `
+        <div class="container curses__container">
+          <h2>Курсы<h2>
+          <ul>
+              ${htmlCurses}
+          </ul>
         </div>
 
         `;
+
         ROOT_CURSES.insertAdjacentHTML('afterbegin', html);
         });
 

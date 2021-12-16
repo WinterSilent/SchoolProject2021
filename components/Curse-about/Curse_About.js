@@ -10,9 +10,11 @@ class CurseAbout {
                     <div class="curse-about__text">
                         ${options.result.title}
                     </div>
-                    <div id="curse-about__choose" class="curse-about__choose">
-                      <a class="curse-about__a">Записаться</a>
-                    </div>
+                    <a class="curse-about__a">
+                      <div id="curse-about__choose" class="curse-about__choose">
+                        Записаться
+                      </div>
+                    </a>
                 </div>
                 <div class="curse-about__column">
                     <div class="curse-about__image">
