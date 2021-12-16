@@ -54,3 +54,11 @@ h5 {
 .timetable__image {
     padding-top: 0.5rem;
 }
+
+.timetable__title-container{
+    margin-top: 213px;
+}
+
+.timetable__title{
+    margin-bottom: 40px;
+}
