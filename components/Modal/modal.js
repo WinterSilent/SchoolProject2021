@@ -72,3 +72,7 @@ class Modal {
 document.querySelector('#curse-header__choose').addEventListener(
             'click', (e) => { const modal = new Modal(document.body);  }
        );
+
+document.querySelector('#curse-about__choose').addEventListener(
+            'click', (e) => { const modal = new Modal(document.body);  }
+       );

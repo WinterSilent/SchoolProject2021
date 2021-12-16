@@ -2,7 +2,7 @@ class Footer {
   render(){
     const html = `
       <div class="footer__container">
-        <div class="footer__content">
+        <div class="container footer__content">
           <div class="footer__column">
             <p><b>8 (917) 749 37 99</b><br>
             Контактный центр</p>

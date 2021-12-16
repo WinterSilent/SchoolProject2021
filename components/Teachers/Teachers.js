@@ -24,7 +24,7 @@ class Teachers {
         })
         //компонуем
         const html = `
-        <div class="teachers__container">
+        <div class="container teachers__container">
             <div class="teachers__title">
                 <h3>Команда</h3>
             </div>

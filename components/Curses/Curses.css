@@ -13,13 +13,7 @@ h2{
     margin-bottom: 30px;
 }
 
-
-
 .curses__container {
-    /*color: #FEFCFD;*/
-
-    max-width: 1200px;
-    margin: 0 auto;
     margin-top: 200px;
     font-weight: 500;
     font-size: 40px;
@@ -50,18 +44,28 @@ h2{
 }
 
 
-
-@media (max-width: 1300px) {
-    .curses__container {
-      max-width: 90%;
-      margin-top: 100px;
-      font-size: 32px;
-    }
+@media (max-width: 1366px) {
+  .curses__container {
+    margin-top: 100px;
+    font-size: 32px;
+  }
 }
 
-@media (max-width: 700px) {
-    .curses__container {
-      margin-top: 80px;
-      font-size: 24px;
-    }
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .curses__container {
+    margin-top: 80px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 578px) {
+
+}
+
+@media (max-width: 480px) {
+
 }

@@ -1,11 +1,13 @@
 class Action {
   render(){
     const html = `
-        <div class="action__container">
+        <div class="container action__container">
           <div class="action__call">Давай учиться <br>вместе!</div>
-          <div class="action__choose">
-            <a href="#curses-anchor">Выбрать курс</a>
-          </div>
+          <a href="#curses-anchor">
+            <div class="action__choose">
+              Выбрать курс
+            </div>
+          </a>
         </div>
       `;
 

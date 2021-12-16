@@ -2,7 +2,7 @@ class Faq {
     render() {
         let htmlFaq = `
             <div class="faq">
-                <div class="faq__container">
+                <div class="container faq__container">
                     <div class="faq__title">
                         <h3>Часто задаваемые вопросы</h3>
                     </div>
@@ -44,7 +44,6 @@ class Faq {
             `
         const html = `
         <div class="container">
-            <a name="faq-anchor"></a>
             <ul>
                 ${htmlFaq}
             </ul>

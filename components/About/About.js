@@ -1,7 +1,7 @@
 class About {
   render(){
     const html = `
-        <div class="about__container">
+        <div class="container about__container">
           <div class="about__heading">
             <div class="about__banner">
               МЫ СОЗДАЕМ ТЕХНОЛОГИИ
@@ -10,9 +10,11 @@ class About {
               <div class="about__topic-text">
                 Что такое Тензор? Это вектор. И мы движемся вперед с 1996 года как в работе, так и просто по жизни.
               </div>
-              <div class="about__choose">
-                <a href="#curses-anchor">Выбрать курс</a>
-              </div>
+              <a href="#curses-anchor">
+                <div class="about__choose">
+                  Выбрать курс
+                </div>
+              </a>
             </div>
           </div>
           <div class="about__description">

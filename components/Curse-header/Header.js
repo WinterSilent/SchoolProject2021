@@ -7,12 +7,14 @@ class Header {
               <a class="header__a" href="index.html">ТЕНЗОР</a>
             </div>
             <div class="header__menu">
-              <a class="header__a" href="#about-anchor">О нас</a>
-              <a class="header__a" href="#">Отзывы</a>
-              <a class="header__a" href="#faq-anchor">FAQ</a>
-              <div id="curse-header__choose" class="header__choose">
-                <a class="header__a">Записаться</a>
-              </div>
+              <a class="header__a" href="#program-anchor">Программа</a>
+              <a class="header__a" href="#faqсourse-anchor">FAQ</a>
+              <a class="header__a" href="#timetable-anchor">Расписание</a>
+              <a class="header__a header__a_white">
+                <div id="curse-header__choose" class="header__choose">
+                  Записаться
+                </div>
+              </a>
             </div>
           </div>
         </div>
