@@ -7,6 +7,10 @@ h3 {
     font-weight: normal;
 }
 
+.faq__title{
+    margin-bottom: 40px;
+}
+
 input {
     position: absolute;
     opacity: 0;

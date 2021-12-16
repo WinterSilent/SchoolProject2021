@@ -18,6 +18,12 @@
     align-items: center;
 }
 
+.header__colortext{
+    color: #506AF3;
+    letter-spacing:0.05em;
+    font-weight: bold;
+}
+
 .header__logo {
     margin: 9px 0;
 
