@@ -16,7 +16,7 @@ class Curses {
 
         }
         let html = `
-        <div class="container">
+        <div class="curses__container">
         <h2>Курсы<h2>
         <a name="curses-anchor"></a>
         <ul>
