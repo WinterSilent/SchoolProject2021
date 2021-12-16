@@ -20,8 +20,6 @@
 }
 
 .header__logo {
-    /*width: 40%;*/
-
     margin: 9px 0;
 
     letter-spacing: 0.6em;
@@ -32,8 +30,6 @@
 }
 
 .header__menu {
-    /*width: 60%;*/
-
     margin: 9px 0;
 
     display: flex;

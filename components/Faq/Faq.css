@@ -91,10 +91,6 @@ input:checked ~ .tab__content {
   }
 }
 
-@media (max-width: 992px) {
-
-}
-
 @media (max-width: 768px) {
   .faq__container {
       margin-top: 80px;
@@ -107,12 +103,4 @@ input:checked ~ .tab__content {
   .tab__content {
       font-size: 12px;
   }
-}
-
-@media (max-width: 578px) {
-
-}
-
-@media (max-width: 480px) {
-
 }

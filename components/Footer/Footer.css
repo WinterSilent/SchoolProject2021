@@ -54,10 +54,6 @@
   }
 }
 
-@media (max-width: 992px) {
-
-}
-
 @media (max-width: 768px) {
   .footer__a {
       font-size: 9px;
@@ -70,12 +66,4 @@
   .footer__column p {
       font-size: 9px;
   }
-}
-
-@media (max-width: 578px) {
-
-}
-
-@media (max-width: 480px) {
-
 }
