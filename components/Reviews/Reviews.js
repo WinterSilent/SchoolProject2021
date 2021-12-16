@@ -4,7 +4,6 @@ class Reviews {
         REVIEWS_LIST.forEach(({ id, name, surname, status, cusrse, review, img }) => {
             htmlReviews += `
             <div class="reviews-item">
-
                 <div class="reviews-item__container">
                     <div class="reviews-item__person">
                         <div class="reviews-item__info">
@@ -24,6 +23,7 @@ class Reviews {
         })
 
         const html = `
+        <a name="reviews-anchor"></a>
         <div class="reviews__container">
             <div class="reviews__btn-circle" onclick="reviewsSlider.minus()">
                 <div class="reviews__btn-arrow">

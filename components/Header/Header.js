@@ -8,7 +8,7 @@ class Header {
             </div>
             <div class="header__menu">
               <a class="header__a" href="#about-anchor">О нас</a>
-              <a class="header__a" href="#">Отзывы</a>
+              <a class="header__a" href="#reviews-anchor">Отзывы</a>
               <a class="header__a" href="#faq-anchor">FAQ</a>
               <div class="header__choose">
                 <a class="header__a" href="#curses-anchor">Выбрать курс</a>
