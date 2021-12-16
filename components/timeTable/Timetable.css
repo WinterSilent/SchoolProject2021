@@ -22,6 +22,14 @@ h5 {
     font-weight: normal;
 }
 
+.timetable__wrap {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.timetable__title {
+    margin-bottom: 40px;
+}
 
 .timetable__table {
     border-top: 1px solid black;
@@ -52,13 +60,13 @@ h5 {
     padding-top: 0.5rem;
 }
 
-@media (max-width: 992px) 
+@media (max-width: 992px)
 {
     .timetable__table {
         border-top: 1px solid black;
         display: flex;
         align-items: flex-start;
-    
+
     }
     .timetable__image{
         display: none;
