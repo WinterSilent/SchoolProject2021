@@ -1,5 +1,4 @@
 class Teachers {
-    //в методе в цикле тянем значения ключей каждого объекта и вставляем в верстку
     render() {
         let htmlTeachers = '';
         TEACHERSLIST.forEach(({name, position, description, image}) => {
@@ -22,7 +21,7 @@ class Teachers {
         </div>
             `
         })
-        //компонуем
+
         const html = `
         <div class="container teachers__container">
             <div class="teachers__title">
@@ -36,6 +35,6 @@ class Teachers {
         ROOT_TEACHERS.insertAdjacentHTML('afterbegin', html);
     }
 }
-//создаем объект класса и вызываем метод
+
 const teachersPage = new Teachers();
 teachersPage.render();

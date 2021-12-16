@@ -14,19 +14,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'IBM Plex Mono', serif;
-    
+
 }
 
 h2{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;    
+    font-size: 24px;
     margin-bottom: 30px;
 }
 
 .container {
-    /*color: #FEFCFD;*/
-
     max-width: 1200px;
     margin: 0 auto;
     font-weight: 500;
@@ -62,3 +60,4 @@ h2{
         width: 90%;
     }
 }
+

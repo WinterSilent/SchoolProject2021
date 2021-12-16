@@ -18,8 +18,6 @@ class Header {
             </div>
           </div>
         </div>
-
-
       `;
 
       ROOT_HEADER.insertAdjacentHTML('afterbegin', html);
