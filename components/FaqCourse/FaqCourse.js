@@ -3,7 +3,7 @@ class FaqCourse {
         const html = `
       <div class="faqCourse">
 <!--      переиспользуем блок из другого компонента-->
-                <div class="faq__container">
+                <div class="container faq__container">
                 
                     <div class="faq__title">
                         <h4>Как мы учим</h4>

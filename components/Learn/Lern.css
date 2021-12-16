@@ -11,3 +11,33 @@
 .lern-name{
     font-size: 20px;
 }
+
+@media (max-width: 992px)
+{   
+    .lern-items{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 100px;
+
+    }
+}
+@media (max-width: 768px) {
+
+    .lern-items{
+        margin-bottom: 40px;
+    }
+   
+    .lern-name{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 578px) {
+  
+    .lern-items{
+        margin-bottom: 30px;
+    }
+    .lern-name{
+        font-size: 14px;
+    }
+}
