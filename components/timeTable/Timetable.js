@@ -31,9 +31,9 @@ class Timetable {
             }
             const html = `
             <div class="container timetable__wrap">
-            <div class="timetable__title">
-            <h4>Расписание</h4>
-            </div>
+                <div class="timetable__title">
+                    <h4 class="timetable__h4">Расписание</h4>
+                </div>
                 <ul>
                 ${htmlTimetable}
                 </ul>
