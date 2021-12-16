@@ -18,6 +18,11 @@
     justify-content: space-between;
     align-items: center;
 }
+.header__colortext{
+    color: #506AF3;
+    letter-spacing:0.05em;
+    font-weight: bold;
+}
 
 .header__logo {
     /*width: 40%;*/

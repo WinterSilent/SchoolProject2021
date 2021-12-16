@@ -33,7 +33,7 @@
 }
 
 .about__topic a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .about__choose {
@@ -214,12 +214,4 @@
       font-size: 12px;
       line-height: 16px;
   }
-}
-
-@media (max-width: 578px) {
-
-}
-
-@media (max-width: 480px) {
-
 }
