@@ -24,13 +24,16 @@ class Reviews {
 
         const html = `
         <div class="container reviews__container">
-            <div class="reviews__btn-circle" onclick="reviewsSlider.minus()">
-                <div class="reviews__btn-arrow">
+            <h2 class="reviews__h">Отзывы<h2>
+            <div class="reviews__content">
+                <div class="reviews__btn-circle" onclick="reviewsSlider.minus()">
+                    <div class="reviews__btn-arrow">
+                    </div>
                 </div>
-            </div>
-            ${htmlReviews}
-            <div class="reviews__btn-circle" onclick="reviewsSlider.plus()">
-                <div class="reviews__btn-arrow reviews__btn-arrow_right">
+                ${htmlReviews}
+                <div class="reviews__btn-circle" onclick="reviewsSlider.plus()">
+                    <div class="reviews__btn-arrow reviews__btn-arrow_right">
+                    </div>
                 </div>
             </div>
         </div>

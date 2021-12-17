@@ -27,12 +27,21 @@ h5 {
     margin-bottom: 100px;
 }
 
+.timetable__container:first-child {
+    border-top: 1px solid black;
+}
+
 .timetable__title {
     margin-bottom: 40px;
 }
 
+.timetable__container {
+    border-bottom: 1px solid black;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 .timetable__table {
-    border-top: 1px solid black;
     display: flex;
     align-items: center;
 
